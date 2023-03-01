@@ -20,9 +20,20 @@
             padding: 10px;
         }
 
+        caption {
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgrey;
+        }
+
         thead, tfoot {
             background-color: gray;
             color: white;
+        }
+
+        td.num {
+            text-align: right;
         }
     </style>
 </head>
@@ -30,6 +41,7 @@
     <h1>Usa de tabelas grandes</h1>
         <!-- 
             ANATOMIA PARA TABELAS GRANDES 
+                CAPTION
                 THEAD
                     TR, TD, TH
                 TBODY
@@ -38,6 +50,9 @@
                     TR, TD, TH
         -->
     <table>
+        <caption>
+           População das Unidades Federativas 
+        </caption>
         <thead>
             <tr>
                 <th>Estado</th>
@@ -47,86 +62,86 @@
         <tbody>
             <tr>
                 <td>São Paulo</td>
-                <td>45 919 049</td>
+                <td class="num">45.919.049</td>
             </tr>
             <tr>
                 <td>Minas Gerais</td>
-                <td>21 168 791</td>
+                <td class="num">21.168.791</td>
             </tr>
             <tr>
                 <td>Rio de janeiro</td>
-                <td>17 264 943</td>
+                <td class="num">17.264.943</td>
             </tr>
             <tr>
                 <td>Bahia</td>
-                <td>14 873 064</td>
+                <td class="num">14.873.064</td>
             </tr>
             <tr>
                 <td>Paraná</td>
-                <td>11 433 857</td>
+                <td class="num">11.433.857</td>
             </tr>
             <tr>
                 <td>Rio Grande do Sul</td>
-                <td>11 377 239</td>
+                <td class="num">11.377.239</td>
             </tr>
             <tr>
                 <td>Pemambuco</td>
-                <td></td>
+                <td class="num">9.051.113</td>
             </tr>
             <tr>
-                <td></td>
-                <td></td>
+                <td>Ceará</td>
+                <td class="num">8.936.431</td>
             </tr>
             <tr>
-                <td></td>
-                <td></td>
+                <td>Pará</td>
+                <td class="num">8.442.962</td>
             </tr>
             <tr>
-                <td></td>
-                <td></td>
+                <td>Santa Catarina</td>
+                <td class="num">7.762.154</td>
             </tr>
             <tr>
-                <td></td>
-                <td></td>
+                <td>Goiás</td>
+                <td class="num">6.950.976</td>
             </tr>
             <tr>
-                <td></td>
-                <td></td>
+                <td>Maranhão</td>
+                <td class="num">6.800.605</td>
             </tr>
             <tr>
-                <td></td>
-                <td></td>
+                <td>Espírito Santo</td>
+                <td class="num">4.108.508</td>
             </tr>
             <tr>
-                <td></td>
-                <td></td>
+                <td>Paraíba</td>
+                <td class="num">4.030.961</td>
             </tr>
             <tr>
-                <td></td>
-                <td></td>
+                <td>Amazonas</td>
+                <td class="num">3.952.262</td>
             </tr>
             <tr>
-                <td></td>
-                <td></td>
+                <td>Mato Grosso</td>
+                <td class="num">3.784.239</td>
             </tr>
             <tr>
-                <td></td>
-                <td></td>
+                <td>Rio Grande do Norte</td>
+                <td class="num">3.303.953</td>
             </tr>
             <tr>
-                <td></td>
-                <td></td>
+                <td>Piauí</td>
+                <td class="num">3.270.174</td>
             </tr>
             <tr>
-                <td></td>
-                <td></td>
+                <td>Alagoas</td>
+                <td class="num">3.125.254</td>
             </tr>
 
         </tbody>
         <tfoot>
             <tr>
                 <th>Total de Habitantes</th>
-                <td>0000</td>
+                <td class="num"><strong>210.147.125</strong></td>
             </tr>
         </tfoot>
     </table>
