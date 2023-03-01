@@ -13,6 +13,7 @@
         table {
             width: 400px;
             border-collapse: collapse;
+            position: relative;
         }
 
         td, th {
@@ -28,8 +29,22 @@
         }
 
         thead, tfoot {
-            background-color: gray;
+            background-color: #383838;
             color: white;
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: #383838;
+        }
+
+        tbody > tr:nth-child(odd) {
+            background-color: white;
+        }
+
+        tbody > tr:nth-child(even) {
+            background-color: lightgray;
         }
 
         td.num {
@@ -55,8 +70,8 @@
         </caption>
         <thead>
             <tr>
-                <th>Estado</th>
-                <th>População</th>
+                <th scope="col">Estado</th>
+                <th  scope="col" style="width: 50px;">População</th>
             </tr>
         </thead>
         <tbody>
@@ -140,10 +155,46 @@
         </tbody>
         <tfoot>
             <tr>
-                <th>Total de Habitantes</th>
+                <th scope="row">Total de Habitantes</th>
                 <td class="num"><strong>210.147.125</strong></td>
             </tr>
         </tfoot>
     </table>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, at. Nostrum temporibus facilis expedita minima dolorem iusto cum qui iste earum neque, officiis suscipit aut sequi necessitatibus tempore deserunt assumenda.
+        Unde voluptatum rem est ab suscipit, natus, laudantium quia ut vero ipsum praesentium explicabo odio! Reprehenderit nesciunt nobis officiis, ea maxime enim eaque, placeat numquam quasi, harum provident architecto. Molestiae?
+        Culpa dignissimos quis aspernatur eos expedita aut exercitationem repellendus porro repudiandae minus ut sit a perspiciatis facilis, obcaecati veniam cupiditate illo tenetur nihil iste numquam dolores iure velit enim. Repellendus.
+        Laborum architecto quas laudantium blanditiis minima aspernatur, sint minus sapiente, eos molestiae, iste atque accusamus eligendi expedita molestias optio repellat asperiores. Ratione repellendus repudiandae, illo unde impedit aperiam dolores quibusdam!
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, at. Nostrum temporibus facilis expedita minima dolorem iusto cum qui iste earum neque, officiis suscipit aut sequi necessitatibus tempore deserunt assumenda.
+        Unde voluptatum rem est ab suscipit, natus, laudantium quia ut vero ipsum praesentium explicabo odio! Reprehenderit nesciunt nobis officiis, ea maxime enim eaque, placeat numquam quasi, harum provident architecto. Molestiae?
+        Culpa dignissimos quis aspernatur eos expedita aut exercitationem repellendus porro repudiandae minus ut sit a perspiciatis facilis, obcaecati veniam cupiditate illo tenetur nihil iste numquam dolores iure velit enim. Repellendus.
+        Laborum architecto quas laudantium blanditiis minima aspernatur, sint minus sapiente, eos molestiae, iste atque accusamus eligendi expedita molestias optio repellat asperiores. Ratione repellendus repudiandae, illo unde impedit aperiam dolores quibusdam!
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, at. Nostrum temporibus facilis expedita minima dolorem iusto cum qui iste earum neque, officiis suscipit aut sequi necessitatibus tempore deserunt assumenda.
+        Unde voluptatum rem est ab suscipit, natus, laudantium quia ut vero ipsum praesentium explicabo odio! Reprehenderit nesciunt nobis officiis, ea maxime enim eaque, placeat numquam quasi, harum provident architecto. Molestiae?
+        Culpa dignissimos quis aspernatur eos expedita aut exercitationem repellendus porro repudiandae minus ut sit a perspiciatis facilis, obcaecati veniam cupiditate illo tenetur nihil iste numquam dolores iure velit enim. Repellendus.
+        Laborum architecto quas laudantium blanditiis minima aspernatur, sint minus sapiente, eos molestiae, iste atque accusamus eligendi expedita molestias optio repellat asperiores. Ratione repellendus repudiandae, illo unde impedit aperiam dolores quibusdam!
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, at. Nostrum temporibus facilis expedita minima dolorem iusto cum qui iste earum neque, officiis suscipit aut sequi necessitatibus tempore deserunt assumenda.
+        Unde voluptatum rem est ab suscipit, natus, laudantium quia ut vero ipsum praesentium explicabo odio! Reprehenderit nesciunt nobis officiis, ea maxime enim eaque, placeat numquam quasi, harum provident architecto. Molestiae?
+        Culpa dignissimos quis aspernatur eos expedita aut exercitationem repellendus porro repudiandae minus ut sit a perspiciatis facilis, obcaecati veniam cupiditate illo tenetur nihil iste numquam dolores iure velit enim. Repellendus.
+        Laborum architecto quas laudantium blanditiis minima aspernatur, sint minus sapiente, eos molestiae, iste atque accusamus eligendi expedita molestias optio repellat asperiores. Ratione repellendus repudiandae, illo unde impedit aperiam dolores quibusdam!
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, at. Nostrum temporibus facilis expedita minima dolorem iusto cum qui iste earum neque, officiis suscipit aut sequi necessitatibus tempore deserunt assumenda.
+        Unde voluptatum rem est ab suscipit, natus, laudantium quia ut vero ipsum praesentium explicabo odio! Reprehenderit nesciunt nobis officiis, ea maxime enim eaque, placeat numquam quasi, harum provident architecto. Molestiae?
+        Culpa dignissimos quis aspernatur eos expedita aut exercitationem repellendus porro repudiandae minus ut sit a perspiciatis facilis, obcaecati veniam cupiditate illo tenetur nihil iste numquam dolores iure velit enim. Repellendus.
+        Laborum architecto quas laudantium blanditiis minima aspernatur, sint minus sapiente, eos molestiae, iste atque accusamus eligendi expedita molestias optio repellat asperiores. Ratione repellendus repudiandae, illo unde impedit aperiam dolores quibusdam!
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, at. Nostrum temporibus facilis expedita minima dolorem iusto cum qui iste earum neque, officiis suscipit aut sequi necessitatibus tempore deserunt assumenda.
+        Unde voluptatum rem est ab suscipit, natus, laudantium quia ut vero ipsum praesentium explicabo odio! Reprehenderit nesciunt nobis officiis, ea maxime enim eaque, placeat numquam quasi, harum provident architecto. Molestiae?
+        Culpa dignissimos quis aspernatur eos expedita aut exercitationem repellendus porro repudiandae minus ut sit a perspiciatis facilis, obcaecati veniam cupiditate illo tenetur nihil iste numquam dolores iure velit enim. Repellendus.
+        Laborum architecto quas laudantium blanditiis minima aspernatur, sint minus sapiente, eos molestiae, iste atque accusamus eligendi expedita molestias optio repellat asperiores. Ratione repellendus repudiandae, illo unde impedit aperiam dolores quibusdam!
+    </p>
 </body>
 </html>
